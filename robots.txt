@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trianatrucksespecialsas-hash.github.io/triana-trucks-web/sitemap.xml

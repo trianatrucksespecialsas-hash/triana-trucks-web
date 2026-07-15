@@ -162,3 +162,24 @@ const observador = new IntersectionObserver((entries)=>{
 });
 
 observador.observe(document.querySelector(".estadisticas"));
+const preguntas = document.querySelectorAll(".faq-question");
+
+preguntas.forEach((pregunta)=>{
+
+    pregunta.addEventListener("click",()=>{
+
+        const respuesta = pregunta.nextElementSibling;
+
+        if(respuesta.style.display==="block"){
+
+            respuesta.style.display="none";
+
+        }else{
+
+            respuesta.style.display="block";
+
+        }
+
+    });
+
+});

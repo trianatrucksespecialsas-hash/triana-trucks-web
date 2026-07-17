@@ -27,13 +27,13 @@ header{
     justify-content:space-between;
     align-items:center;
 
-    padding:20px 80px;
+    padding:15px 30px;
 
     position:sticky;
     top:0;
     z-index:1000;
 
-    background:#3A3A3A;
+    background:#f5f5f5;
 
     border-bottom:4px solid #D61F26;
 
@@ -43,7 +43,7 @@ header{
 
 nav a{
 
-    color:white;
+    color:black;
     text-decoration:none;
     margin-left:25px;
     font-weight:bold;
@@ -342,7 +342,7 @@ padding:0 20px;
 
 .logo img{
 
-    width:180px;
+    width: 170px;
     height:auto;
     display:block;
 
